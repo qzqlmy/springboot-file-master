@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="shangchuan:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>shangchuan</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="shangchuan-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="shangchuan:war exploded" />
+    </root>
+  </artifact>
+</component>
